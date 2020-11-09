@@ -13,4 +13,7 @@ func main() {
 
 	_, r3 := vals()
 	fmt.Println(r3)
+
+	var r4, r5 int = vals()
+	fmt.Println(r4, r5)
 }
